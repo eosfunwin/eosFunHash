@@ -1,11 +1,11 @@
 # eosFunHash
 
-## eosfun采用最新区块hash值进行开奖
+## eosfun采用最新区块hash值进行开奖(结果可验证)
 
 ## 计算方法
-crash(爆点） = crashGame(hash);
-
-比如， crash = crashGame("0140de717d445df9faaf34604807e4800b93a5f54da22655453e2290e98c0430");
+crash(爆点） = crashGame(hash);  
+--
+比如， crash = crashGame("0140de717d445df9faaf34604807e4800b93a5f54da22655453e2290e98c0430");  
 结果放大了100倍，比如 101 表示 1.01x， 808表示8.08x
 
 ```java
