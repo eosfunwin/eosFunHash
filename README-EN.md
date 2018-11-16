@@ -5,12 +5,12 @@
 > very complicated encryption algorithms, and our lottery number is using such a truly random result. Calculate the lottery 
 > number to achieve absolute fairness. After the crash countdown, get the latest block hash to calculate the lottery result.
 
-## Calculation method
-crashValue = crashGame(hash);
+## Calculation method  
+crashValue = crashGame(hash);  
 --
-For example， crash = crashGame("0140de717d445df9faaf34604807e4800b93a5f54da22655453e2290e98c0430");
-The result has been expanded by 100 times，such as 101 means 1.01x， 808 means 8.08x
-crashValue between 100-970000，also between 1.0x - 9700x
+For example， crash = crashGame("0140de717d445df9faaf34604807e4800b93a5f54da22655453e2290e98c0430");  
+The result has been expanded by 100 times，such as 101 means 1.01x， 808 means 8.08x  
+crashValue between 100-970000，also between 1.0x - 9700x  
 
 ```java
   /**
