@@ -1,4 +1,4 @@
-# eosFunHash
+# EosFunHash
 
 ## Eosfun uses the latest block hash value to resolve your bet (results can be verified)
 > The EOS block HASH is a 32-Byte string displayed in hexadecimal, which is randomly generated according to a series of 
