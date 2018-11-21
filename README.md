@@ -10,6 +10,8 @@
 结果放大了100倍，比如 101 表示 1.01x， 808表示8.08x  
 开奖结果位于 100-970000之间，也就是 1.0x - 9700x之间
 
+## java 代码实现如下
+
 ```java
     /**
     * calculate crash result
@@ -26,6 +28,7 @@
     */
     public static int custom_hash(String hash) {
         int h = 0;
+        //将字符串转字符数组，java的库函数，（很多人对此有疑问？可以请教一下编程朋友们）
         char[] value = hash.toCharArray();
         if (value.length > 0) {
             char val[] = value;
